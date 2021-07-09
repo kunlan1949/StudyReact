@@ -4,6 +4,8 @@ import Head from "./components/Head";
 import List from "./components/List";
 import Foot from "./components/Foot";
 
+import store from './store/index';
+
 class App extends Component {
   constructor(props) {
     super(props);
