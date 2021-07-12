@@ -15,7 +15,7 @@ export default class Head extends Component {
 
   render() {
     return (
-      <div class="todo-header">
+      <div className="todo-header">
         <input
           ref={this.myInput}
           type="text"
